@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(275, 100%, 97%);
+    font-family: 'Work Sans' , sans-serif;
+
+
+}
+
+
+
+.background-image{
+    position: absolute;
+    width: 100vw;
+    height: 35vh;
+    top: 0;
+    left: 0;
+    background-image: url('assets/images/background-pattern-desktop.svg');
+}
+
+main{
+    width: 25vw;
+    min-width: 384px;
+    padding: 2rem 1.5rem 1rem;
+    z-index: 1;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+
+    
+}
+
+.content-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.content-title svg{
+    margin-right: 1.5rem;
+    width: 25px;
+    height: 25px;
+}
+
+.panel{
+    display: none;
+    margin-bottom: 1rem;
+    color: hsl(292, 16%, 49%);
+    font-size: 15px;
+}
+
+
+li{
+    color: hsl(292, 42%, 14%);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+
+
+li svg{
+    margin-left: 4.5rem;
+    min-width: 40px;
+    min-height: 40px;
+}
+
+li svg:last-child{
+    display: none;
+}
+
+
+
+ul li:hover{
+    color: hsl(292, 16%, 49%);
+}
+
+hr{
+    border-top: 0.5px solid;
+    border-color:hsl(275, 100%, 97%);
+    margin: 1rem 0;
+}
+
+
+.attribution{
+    display: none;
+}
